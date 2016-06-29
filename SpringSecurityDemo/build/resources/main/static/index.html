@@ -1,25 +1,26 @@
 <!DOCTYPE HTML>
 <html ng-app="securapp">
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/mystyles.css">
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"  crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
     <title>Spring Security Test App</title>
 </head>
 
-<body>
+<body ng-cloak class="ng-cloak">
 <div class="container">
     <div class="row" ng-controller="IndexController">
         <ul class="nav nav-pills">
-            <li role="presentation" class="active"><a href="#/">Home</a></li>
-            <li ng-show="!authenticated" role="presentation"><a href="#/login">Login</a></li>
-            <li ng-show="authenticated" role="presentation"><a href ng-click="logout();">Logout</a></li>
+            <li role="presentation" ng-class="{active: tab.selection===0}" ng-click="tab.selection=0;"> <a href="#/">Home</a></li>
+            <li ng-show="!authenticated" ng-class="{active: tab.selection===1}" ng-click="tab.selection=1;" role="presentation"><a href="login">Login</a></li>
+            <li ng-show="authenticated" ng-class="{active: tab.selection===2}" ng-click="tab.selection=2;" role="presentation"><a href ng-click="logout();">Logout</a></li>
         </ul>
     </div>
     <ng-view class="row"></ng-view>
+
 </div>
 
 

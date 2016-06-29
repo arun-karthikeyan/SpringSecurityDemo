@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-security:1.1.1.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Could not find org.springframework.cloud:spring-cloud-security:1.1.1.BUILD-SNAPSHOT." />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-security/1.1.1.BUILD-SNAPSHOT/5965e8a13f21ae3a7d97165f197b54c779506501/spring-cloud-security-1.1.1.BUILD-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-security/1.1.1.BUILD-SNAPSHOT/61eda9d61d6ca699fadc7bb0de125a99b47e4396/spring-cloud-security-1.1.1.BUILD-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-security/1.1.1.BUILD-SNAPSHOT/86df21329e76aeabb87a22e9efaaf5fe802e12af/spring-cloud-security-1.1.1.BUILD-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

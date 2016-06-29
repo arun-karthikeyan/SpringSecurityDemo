@@ -1,0 +1,34 @@
+debug: true
+
+spring:
+  aop:
+    proxy-target-class: true
+
+security:
+  user:
+    password: password
+  oauth2:
+    client:
+      accessTokenUri: http://localhost:9999/authserver/oauth/token
+      userAuthorizationUri: http://localhost:9999/authserver/oauth/authorize
+      clientId: acme
+      clientSecret: acmesecret
+    resource:
+      userInfoUri: http://localhost:9999/authserver/user
+
+zuul:
+  routes:
+    resource:
+      path: /resource/**
+      url: http://localhost:9000/resserver/
+    user:
+      path: /user/**
+      url: http://localhost:9999/authserver/user
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG
+
+server:
+  contextPath: /uiserver

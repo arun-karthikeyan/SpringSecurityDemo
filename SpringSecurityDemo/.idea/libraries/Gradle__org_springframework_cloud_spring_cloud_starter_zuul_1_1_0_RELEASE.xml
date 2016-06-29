@@ -5,7 +5,7 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-zuul/1.1.0.RELEASE/d5f93cbf012e42bf046d6274d3ef4ee387180090/spring-cloud-starter-zuul-1.1.0.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-zuul/1.1.0.RELEASE/d4b8416c90a61cbda5dcc7a3c0d6cb493a59eb83/spring-cloud-starter-zuul-1.1.0.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

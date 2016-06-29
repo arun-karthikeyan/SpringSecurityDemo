@@ -5,7 +5,7 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-hystrix/1.1.0.RELEASE/e046dcd606bf0166e20914d83308912b48957a1d/spring-cloud-starter-hystrix-1.1.0.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-hystrix/1.1.0.RELEASE/58f527d43ffa9b3dd19963b25f8478af10001fd1/spring-cloud-starter-hystrix-1.1.0.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

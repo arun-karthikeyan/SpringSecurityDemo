@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/Gateway/Gateway.iml" group="Gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gateway/Gateway_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Gateway/Gateway_main.iml" group="Gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gateway/Gateway_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Gateway/Gateway_test.iml" group="Gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MultiUIGateway.iml" filepath="$PROJECT_DIR$/.idea/modules/MultiUIGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Resource/Resource.iml" filepath="$PROJECT_DIR$/.idea/modules/Resource/Resource.iml" group="Resource" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Resource/Resource_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Resource/Resource_main.iml" group="Resource" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Resource/Resource_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Resource/Resource_test.iml" group="Resource" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UI/UI.iml" filepath="$PROJECT_DIR$/.idea/modules/UI/UI.iml" group="UI" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UI/UI_main.iml" filepath="$PROJECT_DIR$/.idea/modules/UI/UI_main.iml" group="UI" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UI/UI_test.iml" filepath="$PROJECT_DIR$/.idea/modules/UI/UI_test.iml" group="UI" />
+    </modules>
+  </component>
+</project>

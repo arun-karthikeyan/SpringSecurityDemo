@@ -1,0 +1,19 @@
+group 'ScalableArch'
+version '1.0-SNAPSHOT'
+
+repositories{
+    maven {
+        url 'https://repo.spring.io/libs-snapshot'
+    }
+}
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Brixton.RELEASE'
+    }
+}
+
+dependencies{
+    compile("org.springframework.cloud:spring-cloud-starter-zuul")
+    compile 'org.springframework.cloud:spring-cloud-security:1.1.1.BUILD-SNAPSHOT'
+}

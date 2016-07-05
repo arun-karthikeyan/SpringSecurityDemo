@@ -1,0 +1,5 @@
+rootProject.name = 'MultiUIGateway'
+include 'Resource'
+include 'UI'
+include 'Gateway'
+

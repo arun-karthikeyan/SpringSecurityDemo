@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html ng-app="securapp">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/ui/css/mystyles.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+    <title>Spring Security Test App</title>
+</head>
+
+<body ng-cloak class="ng-cloak">
+<div class="container">
+    <div class="row" ng-controller="IndexController">
+        <div class="col-xs-12">
+        <ul class="nav nav-pills">
+            <li role="presentation" ng-class="{active: tab.selection===0}" ng-click="tab.selection=0;"> <a href="#/">Home</a></li>
+            <li ng-show="!authenticated" ng-class="{active: tab.selection===1}" ng-click="tab.selection=1;" role="presentation"><a href ng-click="login();">Login</a></li>
+            <li ng-show="authenticated" ng-class="{active: tab.selection===2}" ng-click="tab.selection=2;" role="presentation"><a href ng-click="logout();">Logout</a></li>
+        </ul>
+            <ng-view class="row"></ng-view>
+        </div>
+    </div>
+
+
+</div>
+
+
+<script src="/ui/js/hello.js"></script>
+
+</body>
+
+</html>
